@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\service\\strongpasswordpolicy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:service\\strongpasswordpolicy .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\exceptions\\passwordmissingspecialcharexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:exceptions\\passwordmissingspecialcharexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\exceptions\\passwordtooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:exceptions\\passwordtooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\exceptions\\passwordcontainsusernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:exceptions\\passwordcontainsusernameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\service\\interfaces\\ipasswordpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:service\\interfaces\\ipasswordpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\jsonproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\jsonproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\jsonorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\jsonorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\interfaces\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\repository\\jsonuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:repository\\jsonuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\logs\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:logs\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\logs\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:logs\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\logs\\interfaces\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:logs\\interfaces\\ilogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|c:\\users\\asus\\source\\repos\\weekone\\cw10\\cw10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{705E0AAB-4C1E-462D-9ECA-1006CE847444}|CW10.csproj|solutionrelative:cw10.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordMissingSpecialCharException.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordMissingSpecialCharException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\PasswordMissingSpecialCharException.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordMissingSpecialCharException.cs",
+              "RelativeToolTip": "Exceptions\\PasswordMissingSpecialCharException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T13:30:36.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordTooShortException.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordTooShortException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\PasswordTooShortException.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordTooShortException.cs",
+              "RelativeToolTip": "Exceptions\\PasswordTooShortException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T13:26:53.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StrongPasswordPolicy .cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\StrongPasswordPolicy .cs",
+              "RelativeDocumentMoniker": "Service\\StrongPasswordPolicy .cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\StrongPasswordPolicy .cs",
+              "RelativeToolTip": "Service\\StrongPasswordPolicy .cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:00:56.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordContainsUsernameException.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordContainsUsernameException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\PasswordContainsUsernameException.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Exceptions\\PasswordContainsUsernameException.cs",
+              "RelativeToolTip": "Exceptions\\PasswordContainsUsernameException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T13:28:53.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPasswordPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\interfaces\\IPasswordPolicy.cs",
+              "RelativeDocumentMoniker": "Service\\interfaces\\IPasswordPolicy.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\interfaces\\IPasswordPolicy.cs",
+              "RelativeToolTip": "Service\\interfaces\\IPasswordPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:00:18.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\OrderService.cs",
+              "RelativeToolTip": "Service\\OrderService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:19:54.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T13:18:26.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JsonProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\JsonProductRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonProductRepository.cs",
+              "RelativeToolTip": "Repository\\JsonProductRepository.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwGsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:28:27.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:30:23.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\Interfaces\\IOrderRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:31:56.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JsonOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonOrderRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\JsonOrderRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonOrderRepository.cs",
+              "RelativeToolTip": "Repository\\JsonOrderRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:36:37.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\Order.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\Order.cs",
+              "RelativeToolTip": "Model\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:59:06.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JsonUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\JsonUserRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Repository\\JsonUserRepository.cs",
+              "RelativeToolTip": "Repository\\JsonUserRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:37:12.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\ProductService.cs",
+              "RelativeToolTip": "Service\\ProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:20:07.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:59:01.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:43:53.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "Logs\\ConsoleLogger.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\ConsoleLogger.cs",
+              "RelativeToolTip": "Logs\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:23:30.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\FileLogger.cs",
+              "RelativeDocumentMoniker": "Logs\\FileLogger.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\FileLogger.cs",
+              "RelativeToolTip": "Logs\\FileLogger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:21:38.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILogger.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\Interfaces\\ILogger.cs",
+              "RelativeDocumentMoniker": "Logs\\Interfaces\\ILogger.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Logs\\Interfaces\\ILogger.cs",
+              "RelativeToolTip": "Logs\\Interfaces\\ILogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T11:33:15.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Service\\UserService.cs",
+              "RelativeToolTip": "Service\\UserService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:19:14.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CW10",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\CW10.csproj",
+              "RelativeDocumentMoniker": "CW10.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\CW10.csproj",
+              "RelativeToolTip": "CW10.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-20T11:25:04.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\weekone\\CW10\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T10:58:55.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
