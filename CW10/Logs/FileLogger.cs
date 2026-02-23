@@ -1,38 +1,40 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿namespace CW10.Logs
+{
+    public class FileLogger : ILogger
+    {
+        private readonly string _path = "logs.txt";
 
-//namespace CW10.Logs
-//{
-//    using global::CW10.Logs.Interfaces;
-//    using System;
-//    using System.IO;
+        public FileLogger()
+        {
+            var dir = Path.GetDirectoryName(_path);
+            if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir))
+                Directory.CreateDirectory(dir);
 
-//    namespace CW10.Logging
-//    {
-//        internal class FileLogger : ILogger
-//        {
-//            private readonly string _path;
+            if (!File.Exists(_path))
+            {
+                File.Create(_path).Close();
+            }
+        }
 
-//            public FileLogger()
-//            {
-//                _path = "app.log";
-//            }
+        public void Info(string message)
+        {
+            string text = $"[LOG] {DateTime.Now} - {message}";
+            File.AppendAllText(_path, text + Environment.NewLine);
+        }
 
-//            public void Info(string message) => Append("INFO", message, null);
+        public void Error(string message)
+        {
+            string text = $"[ERROR] {DateTime.Now} - {message}";
+            File.AppendAllText(_path, text + Environment.NewLine);
 
-//            public void Error(string message, Exception? ex = null) => Append("ERROR", message, ex);
+        }
 
-//            private void Append(string level, string message, Exception? ex)
-//            {
-//                var line = $"[{level}] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
-//                File.AppendAllText(_path, line + Environment.NewLine);
-//                if (ex != null)
-//                    File.AppendAllText(_path, ex + Environment.NewLine);
-//            }
-//        }
-//    }
-
-//}
+        /*private void Append(string level, string message, Exception? ex)
+        {
+            var line = $"[{level}] {DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}";
+            File.AppendAllText(_path, line + Environment.NewLine);
+            if (ex != null)
+                File.AppendAllText(_path, ex + Environment.NewLine);
+        }*/
+    }
+}
