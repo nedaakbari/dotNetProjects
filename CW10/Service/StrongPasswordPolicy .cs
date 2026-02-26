@@ -9,8 +9,6 @@ namespace CW10.Service
 {
     internal class StrongPasswordPolicy : IPasswordPolicy
     {
-        private static char[] SpecialChars = new[] { '!', '@', '#', '$', '%' };
-
         public void Validate(string username, string password)
         {
             if (string.IsNullOrWhiteSpace(password)) throw new ArgumentNullException("password");

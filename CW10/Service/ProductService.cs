@@ -14,9 +14,17 @@ namespace CW10.Service
 
         public Product Create(string name, decimal price, int stock)
         {
+            ValidateProducet(name, price, stock);
             var product = new Product(name, price, stock);
             _productRepository.Add(product);
             return product;
+        }
+
+        private void ValidateProducet(string name, decimal price, int stock)
+        {
+            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Invalid product name.");
+            if (price <= 0) throw new ArgumentException("Price must be greater than 0.");
+            if (stock < 0) throw new ArgumentException("Stock cannot be negative.");
         }
 
         public List<Product> GetAll()

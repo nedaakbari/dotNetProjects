@@ -26,3 +26,18 @@ E:\pro\CW10\obj\Debug\net9.0\refint\CW10.dll
 E:\pro\CW10\obj\Debug\net9.0\CW10.pdb
 E:\pro\CW10\obj\Debug\net9.0\CW10.genruntimeconfig.cache
 E:\pro\CW10\obj\Debug\net9.0\ref\CW10.dll
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\bin\Debug\net9.0\CW10.exe
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\bin\Debug\net9.0\CW10.deps.json
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\bin\Debug\net9.0\CW10.runtimeconfig.json
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\bin\Debug\net9.0\CW10.dll
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\bin\Debug\net9.0\CW10.pdb
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.sourcelink.json
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.dll
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\refint\CW10.dll
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.pdb
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\CW10.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\New folder\dotNetProjects\CW10\obj\Debug\net9.0\ref\CW10.dll

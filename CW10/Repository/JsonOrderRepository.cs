@@ -1,123 +1,91 @@
-﻿/*
-using CW10.Model;
+﻿using CW10.Model;
 using CW10.Repository.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace CW10.Repository
 {
-    internal class JsonOrderRepository : IOrderRepository
+    public class JsonOrderRepository : IOrderRepository
     {
-        List<Order> orderList = new List<Order>();
+        private readonly string _path = "orders.json";
 
-        private readonly string _filePath = "Data/orders.json";
+        List<Order> orderList = new();
 
-        //public JsonOrderRepository()
-        //{
-        //    FileExist();
-        //}
-
-
-        private void FileExist()
+        private List<Order> Read()
         {
-            Directory.CreateDirectory("Data");
-            if (!File.Exists(_filePath))
+            try
             {
-                File.WriteAllText(_filePath, "[]");
+                if (!File.Exists(_path))
+                {
+                    File.WriteAllText(_path, "[]");
+                    return new List<Order>();
+                }
+
+                var json = File.ReadAllText(_path);
+
+                if (string.IsNullOrWhiteSpace(json))
+                    return new List<Order>();
+
+                var data = JsonSerializer.Deserialize<List<Order>>(json);
+                return data ?? new List<Order>();
+            }
+            catch
+            {
+                Console.WriteLine($"Error reading {_path}"); //TODO
+                return new List<Order>();
             }
         }
 
-        private void WriteAll(List<Order> orders)
+        private void Write(List<Order> orders)
         {
-            File.WriteAllText(_filePath, JsonSerializer.Serialize(orders));
+            var json = JsonSerializer.Serialize(orders, new JsonSerializerOptions
+            {
+                WriteIndented = true
+            });
+
+            File.WriteAllText(_path, json);
         }
+
 
         public void Add(Order order)
         {
             orderList.Add(order);
-            //try
-            //{
-            //    var orders = GetAll();
-            //    orders.Add(order);
-            //    WriteAll(orders);
-
-            //}
-            //catch (Exception ex)
-            //{
-            //}
-
-        }
-
-        public bool Remove(Guid id)
-        {
-            //var orderList = GetAll();
-            //foreach (var order in orderList)
-            //{
-            //    if (order.Id == id)
-            //    {
-            //        orderList.Remove(order);
-            //        WriteAll(orderList);
-            //        return true;
-            //    }
-            //}
-            return false;
-        }
-
-        public List<Order> GetAll()
-        {
-            return orderList;
-            //return JsonSerializer.Deserialize<List<Order>>(File.ReadAllText(_filePath));
+            Write(orderList);
         }
 
         public Order? GetById(Guid id)
         {
-            //var orderList = GetAll();
-            //foreach (var order in orderList)
-            //{
-            //    if (order.Id == id)
-            //    {
-            //        return order;
-            //    }
-            //}
-            return null;
+            throw new NotImplementedException();
+        }
+
+        public List<Order> GetByUserId(Guid id)
+        {
+            List<Order> orders = new();
+            foreach (var order in orderList)
+            {
+                if (order.UserId == id)
+                {
+                    orders.Add(order);
+                }
+            }
+
+            return orders;
+        }
+
+        public bool Delete(Guid id)
+        {
+            var removeAll = orderList.RemoveAll(order => order.Id == id);
+            return removeAll > 0;
+        }
+
+
+        public List<Order> GetAll()
+        {
+            return new List<Order>(orderList);
         }
 
 
         public void Update(Order order)
         {
-            //var orderList = GetAll();
-            //foreach (var item in orderList)
-            //{
-            //    if (item.Id == order.Id)
-            //    {
-            //        //TODO
-            //        WriteAll(orderList);
-            //    }
-            //}
         }
-
-        public void Update(Guid id, string password)
-        {
-            //var userList = JsonSerializer.Deserialize<List<User>>(File.ReadAllText(_filePath));
-            //foreach (var item in userList)
-            //{
-            //    if (item.Id == id)
-            //    {
-            //        item.Password = password;
-
-            //        File.WriteAllText(_filePath, JsonSerializer.Serialize(userList));
-            //    }
-            //}
-        }
-
     }
 }
-*/
-
-
-
-

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace CW10.Repository.Interfaces
 {
-    internal interface IOrderRepository
+    public interface IOrderRepository
     {
-        void Add(Order order);
-        List<Order> GetAll();
-        Order? GetById(Guid id);
-        List<Order> GetByUserId(Guid userId);
-        void Update(Order order);
-        void Delete(Guid id);
+        public void Add(Order order);
+        public List<Order> GetAll();
+        public Order? GetById(Guid id);
+        public List<Order> GetByUserId(Guid userId);
+        public void Update(Order order);
+        public bool Delete(Guid id);
     }
 }

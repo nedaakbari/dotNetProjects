@@ -16,10 +16,6 @@
 
         public Product(string name, decimal price, int stock)
         {
-            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Invalid product name.");
-            if (price <= 0) throw new ArgumentException("Price must be greater than 0.");
-            if (stock < 0) throw new ArgumentException("Stock cannot be negative.");
-
             Name = name.Trim();
             Price = price;
             Stock = stock;
