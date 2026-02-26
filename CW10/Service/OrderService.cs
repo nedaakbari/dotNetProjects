@@ -16,23 +16,26 @@ namespace CW10.Service
             _productRepository = productRepository;
         }
 
-        public Order CreateOrder(Guid userId, List<Product> products, int quantity)
+        public Order CreateOrder(Guid userId, Product product /*List<Product> products*/, int quantity)
+        {
+            /*var product = _productRepository.GetById(productId) ??
+                          throw new InvalidOperationException("Product not found.");*/
+            if (product.Stock < quantity) throw new InvalidOperationException("Not enough stock.");
+
+            var order = new Order(userId, product, quantity);
+            product.DecreaseStock(quantity);
+
+            _productRepository.Update(product);
+            _orderRepository.Add(order);
+
+            return order;
+        }
+
+        private void ValidateOrder(Guid userId, Guid productId, int quantity)
         {
             if (userId == Guid.Empty) throw new ArgumentException("UserId cannot be empty.");
-           // if (productId == Guid.Empty) throw new ArgumentException("ProductId cannot be empty.");
+            if (productId == Guid.Empty) throw new ArgumentException("ProductId cannot be empty.");
             if (quantity <= 0) throw new ArgumentException("Quantity must be greater than 0.");
-           // var product = _productRepository.GetById(productId) ??
-             //             throw new InvalidOperationException("Product not found.");
-           // if (product.Stock < quantity) throw new InvalidOperationException("Not enough stock.");
-
-           // var order = new Order(userId, productId, quantity);
-           // product.DecreaseStock(quantity);
-
-          //  _productRepository.Update(product);
-            //_orderRepository.Add(order);
-
-         //   return order;
-         return null;
         }
 
         public List<Order> GetAllOrdersOfUser(Guid userId)
@@ -54,19 +57,6 @@ namespace CW10.Service
         private Order GetOrder(Guid orderId)
         {
             return _orderRepository.GetById(orderId) ?? throw new KeyNotFoundException("order not found.");
-        }
-        
-        public string ShowInfo(Order order)
-        {
-            var info = new StringBuilder("Id: ")
-                .Append(order.Id).Append("products: {");
-            foreach (var product in order.Products)
-            {
-                info.Append("Name: ").Append(product.Name).Append(", ");
-            }
-
-            info.Append(" }").Append("Quantity").Append(order.Quantity);
-            return info.ToString();
         }
     }
 }

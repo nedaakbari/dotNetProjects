@@ -1,5 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using System.Text;
+using CW10.Logs;
+using CW10.Logs.CW10.Logging;
 using CW10.Model;
 using CW10.Repository;
 using CW10.Repository.Interfaces;
@@ -10,6 +12,7 @@ namespace CW10;
 
 public class UserMenu
 {
+    private static ILogger _logger = new FileLogger();
     static IUserRepository userRepo = new JsonUserRepository();
     static IPasswordPolicy passwordPolicy = new StrongPasswordPolicy();
     static UserService userService = new UserService(userRepo, passwordPolicy);
@@ -63,20 +66,22 @@ public class UserMenu
                     Product product = keyValuePair.Value;
                     Console.WriteLine($"{keyValuePair.Key} : {product.Name} , {product.Price}");
                 }
-
-                List<Product> products = new();
-                Console.WriteLine("enter the product, enter e to exit");
+                
+                Console.WriteLine("enter the product");
                 while (true)
                 {
-                    string? option = Console.ReadLine();
-                    if (option=="e")
+                    bool isDigit = int.TryParse(Console.ReadLine(), out int choice);
+                    if (isDigit && allProductDict.ContainsKey(choice))
                     {
-                        MainMenu.Menu();
-                    }
-                    bool isDigit = int.TryParse(option, out i);
-                    if (isDigit && allProductDict.ContainsKey(i))
-                    {
-                        products.Add(allProductDict[i]);
+                        Console.Write("how many?");
+                        bool isDigitNumber = int.TryParse(Console.ReadLine(),  out int  productnumber);
+                        if (!isDigitNumber)
+                        {
+                            //TODO
+                        }
+                        var order = _orderService.CreateOrder(user.Id, allProductDict[i],productnumber);
+                        _logger.Info("order successfully added");
+                        Console.WriteLine("your order added successfully");
                     }
                     else
                     {
@@ -92,7 +97,7 @@ public class UserMenu
                 var allOrder = _orderService.GetAllOrdersOfUser(user.Id);
                 foreach (var order in allOrder)
                 {
-                    Console.WriteLine(_orderService.ShowInfo(order));
+                    Console.WriteLine(order);
                 }
 
                 break;
